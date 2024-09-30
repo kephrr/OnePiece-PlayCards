@@ -18,7 +18,6 @@ card.forEach(c=>{
         let glowY = y / cRect.height * 100
 
         c.children[0].style.transform = `rotateX(${angleX}deg) rotateY(${angleY}deg) scale(1.1)`
-        // c.children[0].style.margin = `0px 30px`
         c.children[1].style.transform = `rotateX(${angleX}deg) rotateY(${angleY}deg) scale(1.1)`
         glow.style.background = `radial-gradient(circle at ${glowX}% ${glowY}%, rgb(197, 201, 204), transparent);`
     })

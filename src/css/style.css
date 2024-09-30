@@ -11,8 +11,14 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: radial-gradient(circle at 50% 50%, rgb(250, 0, 0),rgb(150, 0, 0),rgb(100, 0, 0),
-    rgb(50, 0, 0),rgb(20, 0, 0),rgb(5, 0, 0), black);
+    background: radial-gradient(
+        circle at 50% 100%, 
+        rgb(250, 0, 0),rgb(150, 0, 0),rgb(100, 0, 0),
+        rgb(80, 0, 0),rgb(50, 0, 0),rgb(40, 0, 0),
+        rgb(30, 0, 0),rgb(20, 0, 0),rgb(10, 0, 0),
+        rgb(9, 0, 0),rgb(8, 0, 0),rgb(7, 0, 0),
+        rgb(6, 0, 0),rgb(5, 0, 0),rgb(5, 0, 0), black
+    );
 }
 
 .container{
