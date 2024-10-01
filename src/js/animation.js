@@ -1,6 +1,6 @@
 const card = document.querySelectorAll(".card")
 const glow = document.querySelector(".glow")
-const body = document.querySelector('#body')
+const body = document.querySelector('.full')
 
 
 
